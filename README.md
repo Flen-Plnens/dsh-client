@@ -85,9 +85,3 @@ with a SHA-256 checksum.
 
 No license has been chosen for this project yet. Please contact the
 maintainer before contributing or redistributing.
-
-## Development
-
-Detailed development notes — implementation status, protocol research, known
-issues and roadmap — are kept in a local `DEVELOPMENT.md` file that is not
-published with this repository.
