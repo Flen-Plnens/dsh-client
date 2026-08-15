@@ -1,0 +1,29 @@
+name: dsh_flutter
+description: DSH Client is a Flutter client for DeepSeek Harness.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+# Runtime deps are still minimal: dart:io carries HTTP + WebSocket; the only
+# added package is the Markdown renderer for chat bubbles (M2).
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_markdown_plus: ^1.0.12
+  # Desktop/mobile file picking for image messages (M3-3).
+  file_selector: ^1.0.3
+  # Code-block syntax highlighting for markdown (M3 Final).
+  highlight: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Core-layer tests are pure Dart (no widgets); package:test lets them run
+  # under the plain `dart test` runner, which needs no flutter_tester.
+  test: ^1.25.0
+
+flutter:
+  uses-material-design: true
