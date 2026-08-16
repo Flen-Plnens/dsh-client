@@ -1,5 +1,7 @@
 # DSH Client
 
+[中文](README_zh.md) | [English](README.md)
+
 > A Flutter client for DeepSeek Harness.
 
 DSH Client is a native Flutter desktop client that talks to a
@@ -7,6 +9,14 @@ DSH Client is a native Flutter desktop client that talks to a
 directly over its wire protocol (HTTP RPC + WebSocket event streams) — no
 embedded browser, no WebView shell. Point it at your Harness service address
 (e.g. `http://127.0.0.1:3080`) and connect.
+
+## Screenshots
+
+![Screenshot 1](https://i.ibb.co/TDCfJWgn/2026-08-16-230618.png)
+
+![Screenshot 2](https://i.ibb.co/1GtGjzFS/2026-08-16-230641.png)
+
+![Screenshot 3](https://i.ibb.co/x86K8ssX/2026-08-16-230652.png)
 
 ## Features
 
@@ -56,15 +66,7 @@ flutter build windows --release
 ```
 
 The Release bundle is produced at
-`build/windows/x64/runner/Release/`. A convenience packaging script is also
-provided:
-
-```sh
-pwsh -File scripts/build_windows_release.ps1
-```
-
-which zips the Release into `build/releases/DSH-Client-<version>-windows-x64.zip`
-with a SHA-256 checksum.
+`build/windows/x64/runner/Release/`.
 
 ## Known limitations
 
