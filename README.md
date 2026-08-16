@@ -83,5 +83,5 @@ with a SHA-256 checksum.
 
 ## License
 
-No license has been chosen for this project yet. Please contact the
-maintainer before contributing or redistributing.
+DSH Client is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for the full license text.
